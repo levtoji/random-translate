@@ -1,0 +1,9 @@
+[package]
+name = "random-translate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+translators = { version = "0.1.3", features = ["google", "tokio-async"] }
+tokio = { version = "1.38.0", features = ["rt-multi-thread"] }
+rand = "0.8.5"
