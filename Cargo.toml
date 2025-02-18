@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-translators = { version = "0.1.3", features = ["google", "tokio-async"] }
-tokio = { version = "1.38.0", features = ["rt-multi-thread"] }
-rand = "0.8.5"
+rand = "0.9"
+translators = { version = "0.1", features = ["google"] }
+clap = { version = "4.5.30", features = ["derive"] }
